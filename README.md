@@ -28,7 +28,6 @@ import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
 
-# ... (resto del código)
 
 # Definición del modelo
 oculta1 = tf.keras.layers.Dense(units=3, input_shape=[1])
@@ -45,4 +44,3 @@ modelo.compile(
 # Entrenamiento del modelo
 historial = modelo.fit(celsius, fahrenheit, epochs=1000, verbose=False)
 
-# ... (resto del código)
