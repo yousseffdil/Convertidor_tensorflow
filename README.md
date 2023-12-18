@@ -43,4 +43,5 @@ modelo.compile(
 
 # Entrenamiento del modelo
 historial = modelo.fit(celsius, fahrenheit, epochs=1000, verbose=False)
-
+```
+<div style="text-align:center"><img src="./Tipo_Modelo.png" alt="Tipo de Modelo"></div>
